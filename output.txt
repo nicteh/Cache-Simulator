@@ -1,0 +1,180 @@
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+5
+At that byte there is the value 5 (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+6
+At that byte there is the value 6 (Cache Hit)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+7
+At that byte there is the value 7 (Cache Hit)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14c
+At that byte there is the value 4c (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14d
+At that byte there is the value 4d (Cache Hit)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14e
+At that byte there is the value 4e (Cache Hit)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14f
+At that byte there is the value 4f (Cache Hit)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+150
+At that byte there is the value 50 (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+151
+At that byte there is the value 51 (Cache Hit)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+3A6
+At that byte there is the value a6 (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+4C3
+At that byte there is the value c3 (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+D
+Slot  Valid  Tag     Data
+  0     1     0      0 1 2 3 4 5 6 7 8 9 a b c d e f
+  1     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  2     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  3     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  4     1     1      40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f
+  5     1     1      50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f
+  6     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  7     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  8     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  9     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  A     1     3      a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af
+  B     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  C     1     4      c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf
+  D     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  E     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  F     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+(R)ead, (W)rite, or (D)isplay Cache?
+W
+What address would you like to write to?
+14C
+What data would you like to write at that address?
+99
+Value 99 has been written to address 14c (Cache Hit)
+(R)ead, (W)rite, or (D)isplay Cache?
+W
+What address would you like to write to?
+63B
+What data would you like to write at that address?
+7
+Value 7 has been written to address 63b (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+582
+At that byte there is the value 82 (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+D
+Slot  Valid  Tag     Data
+  0     1     0      0 1 2 3 4 5 6 7 8 9 a b c d e f
+  1     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  2     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  3     1     6      30 31 32 33 34 35 36 37 38 39 3a 7 3c 3d 3e 3f
+  4     1     1      40 41 42 43 44 45 46 47 48 49 4a 4b 99 4d 4e 4f
+  5     1     1      50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f
+  6     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  7     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  8     1     5      80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f
+  9     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  A     1     3      a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af
+  B     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  C     1     4      c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf
+  D     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  E     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  F     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+348
+At that byte there is the value 48 (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+3F
+At that byte there is the value 3f (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+D
+Slot  Valid  Tag     Data
+  0     1     0      0 1 2 3 4 5 6 7 8 9 a b c d e f
+  1     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  2     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  3     1     0      30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f
+  4     1     3      40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f
+  5     1     1      50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f
+  6     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  7     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  8     1     5      80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f
+  9     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  A     1     3      a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af
+  B     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  C     1     4      c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf
+  D     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  E     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  F     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14b
+At that byte there is the value 4b (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+14c
+At that byte there is the value 99 (Cache Hit)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+63F
+At that byte there is the value 3f (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+R
+What address would you like to read?
+83
+At that byte there is the value 83 (Cache Miss)
+(R)ead, (W)rite, or (D)isplay Cache?
+D
+Slot  Valid  Tag     Data
+  0     1     0      0 1 2 3 4 5 6 7 8 9 a b c d e f
+  1     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  2     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  3     1     6      30 31 32 33 34 35 36 37 38 39 3a 7 3c 3d 3e 3f
+  4     1     1      40 41 42 43 44 45 46 47 48 49 4a 4b 99 4d 4e 4f
+  5     1     1      50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f
+  6     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  7     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  8     1     0      80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f
+  9     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  A     1     3      a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af
+  B     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  C     1     4      c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf
+  D     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  E     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+  F     0     0      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
